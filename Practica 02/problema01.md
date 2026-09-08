@@ -43,7 +43,7 @@ Titulo: `Como` **`Cliente`** `quiero` **`Reservar un mobiliario`** `para poder` 
  
 Reglas de negocio:
 - Una reserva tiene que incluir como mínimo tres muebles.
-- Debe haber, como minimo, la cantidad solicitada del mueble a reservar en el lapso comprendido por las fechas ingresadas.
+- El pago de la reserva solo se puede realizar con tarjeta de crédito.
 ---
 
 Criterios de aceptacion: `Generar Reserva`
@@ -75,6 +75,7 @@ Titulo: `Como` **`Cliente`** `quiero` **`Pagar con tarjeta`** `para poder` **`Re
 
 Reglas de negocio:
 - Sólo se aceptan números correspondientes a tarjetas de crédito.
+- El costo de la reserva es un 20% del total del alquiler.
 ---
 
 Criterios de aceptacion: `Pago con Tarjeta`
