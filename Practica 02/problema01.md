@@ -31,11 +31,6 @@ Criterios de aceptacion: `Dar de alta Mobiliarios`
 - **Cuando** la persona ingresa: el codigo 12345, tipo de mueble "escritorio" fecha de creacion y de ultimo mantenimiento 02/05/2025, estado libre, valor $35000 y presiona "Dar de alta".
 - **Entonces** el sistema intenta autenticar el mobiliario bajo los datos dados, encuentra el codigo de inventario repetido, fallando en el proceso e informa "El codigo de inventario ya se encuentra dado de alta".
 
-> Escenario 3: Dado de alta fallido por fecha incorrecta.
-- **Dado** La fecha 15/12/2026, la cual no ocurrio aun.
-- **Cuando** la persona ingresa: el codigo 34567, tipo de mueble "escritorio" fecha de creacion y de ultimo mantenimiento 15/12/2026, estado libre, valor $35000 y presiona "Dar de alta".
-- **Entonces** el sistema intenta autenticar el mobiliario bajo los datos dados, encuentra una fecha erronea, fallando en el proceso e informa "La fecha ingresada es erronea".
-
 ---
 ID: `Generar Reserva`
 
