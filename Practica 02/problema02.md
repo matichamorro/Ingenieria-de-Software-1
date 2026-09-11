@@ -1,10 +1,3 @@
----
-title: Practica 02
-author: Matias Chamorro
-date: "31 de agosto de 2026"
-output: pdf_document
----
-
 # Practica 02
 ## Historias de usuario
 
